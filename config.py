@@ -1,6 +1,6 @@
 """
 
-config.py .Constantes et mots vides
+config.py – Constantes et mots vides
 
 """
 
@@ -18,6 +18,7 @@ QUESTION_PATTERN = re.compile(
 
 # Colonnes du fichier CSV de sortie
 CSV_FIELDS = [
+    # Indicateurs obligatoires 
     "question",
     "nb_lemmes_differents",
     "nb_phrases",
@@ -28,10 +29,17 @@ CSV_FIELDS = [
     "nb_verbes_differents",
     "nb_phrases_simples",
     "nb_phrases_complexes",
+    # Indicateurs personnalisés 
+    "ratio_type_token",          
+    "longueur_moyenne_phrases",   # complexité syntaxique
+    "nb_phrases_nominales",       # phrases sans verbe (style télégraphique)
+    "nb_moyen_syllabes_par_mot",  # niveau du vocabulaire utilisé
+    "top5_mots_frequents",        # mots les plus répétés
+    "nb_connecteurs_logiques",    # qualité de l'argumentation
 ]
 
 # 
-# MOTS VIDES
+# MOTS VIDES 
 # 
 # Justification :
 #   Les mots vides sont des mots grammaticaux très fréquents qui n'apportent
