@@ -1,0 +1,8 @@
+# Projet Humanité Numérique – Partie 2
+# Dépendances Python
+ 
+spacy>=3.7.0
+language_tool_python>=2.7.1
+ 
+# Après l'installation, télécharger le modèle français spaCy :
+#   python -m spacy download fr_core_news_sm
