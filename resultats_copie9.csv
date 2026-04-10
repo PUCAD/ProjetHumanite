@@ -1,2 +1,2 @@
-question,nb_lemmes_differents,nb_phrases,nb_phrases_syntaxiquement_correctes,nb_fautes_orthographe_copie,nb_noms_communs_differents,nb_adjectifs_differents,nb_verbes_differents,nb_phrases_simples,nb_phrases_complexes
-Question 3,59,11,8,7,31,8,19,3,8
+question,nb_lemmes_differents,nb_phrases,nb_phrases_syntaxiquement_correctes,nb_fautes_orthographe_copie,nb_noms_communs_differents,nb_adjectifs_differents,nb_verbes_differents,nb_phrases_simples,nb_phrases_complexes,ratio_type_token,longueur_moyenne_phrases,nb_phrases_nominales,nb_moyen_syllabes_par_mot,top5_mots_frequents,nb_connecteurs_logiques
+Question 3,59,11,8,7,31,8,19,3,8,0.833,16.09,3,2.65,recherche(5) | terrain(3) | déductif(2) | question(2) | auteur(2),2
