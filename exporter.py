@@ -3,11 +3,11 @@
 exporter.py – Écriture des résultats dans un fichier CSV
 =============================================================================
 """
- 
+
 import csv
 from config import CSV_FIELDS
- 
- 
+
+
 def write_csv(results: list, output_path: str):
     """
     Écrit la liste de résultats dans un fichier CSV.
@@ -17,5 +17,5 @@ def write_csv(results: list, output_path: str):
         writer = csv.DictWriter(f, fieldnames=CSV_FIELDS)
         writer.writeheader()
         writer.writerows(results)
- 
+
     print(f"[OK] Fichier CSV généré : {output_path}")

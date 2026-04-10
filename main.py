@@ -3,7 +3,7 @@
 Projet Humanité Numérique – Partie 2
 Analyse linguistique d'une copie transcrite en français
 =============================================================================
-Auteurs      : [Prénom Nom 1], [Prénom Nom 2]
+Auteurs      : Divin ,Moussa
 Date         : 2025
 Dépendances  : spacy, pyspellchecker, fr_core_news_sm
 
