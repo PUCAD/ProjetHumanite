@@ -1,7 +1,7 @@
 """
-=============================================================================
-loader.py – Lecture du fichier et découpage par questions
-=============================================================================
+
+loader.py Lecture du fichier et découpage par questions
+
 """
 
 import re
@@ -51,7 +51,7 @@ def split_by_questions(text: str) -> dict:
 
     questions = {}
 
-    # Texte avant la première question → Introduction
+    # Texte avant la première question 
     intro = text[:matches[0].start()].strip()
     if intro:
         questions["Introduction"] = intro

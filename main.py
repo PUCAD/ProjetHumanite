@@ -1,21 +1,4 @@
-"""
-=============================================================================
-Projet Humanité Numérique – Partie 2
-Analyse linguistique d'une copie transcrite en français
-=============================================================================
-Auteurs      : Divin ,Moussa
-Date         : 2025
-Dépendances  : spacy, pyspellchecker, fr_core_news_sm
 
-Installation :
-    pip install spacy pyspellchecker
-    pip install fr-core-news-sm   OU   python -m spacy download fr_core_news_sm
-
-Utilisation :
-    python main.py ma_copie.txt
-    python main.py ma_copie.txt -o mon_resultat.csv
-=============================================================================
-"""
 
 import argparse
 

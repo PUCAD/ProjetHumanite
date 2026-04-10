@@ -1,7 +1,7 @@
 """
-=============================================================================
-config.py – Constantes et mots vides
-=============================================================================
+
+config.py .Constantes et mots vides
+
 """
 
 import re
@@ -10,7 +10,7 @@ import re
 NLP_MODEL = "fr_core_news_sm"
 
 # Regex pour détecter les séparateurs de questions dans la copie
-# Exemples reconnus : "Question 1", "Q1", "Q 2", "QUESTION 3", "Q.3"
+
 QUESTION_PATTERN = re.compile(
     r"(?:^|\n)\s*(?:Question|QUESTION|Q\.?\s*)\s*(\d+)[^\n]*",
     re.IGNORECASE
@@ -30,9 +30,9 @@ CSV_FIELDS = [
     "nb_phrases_complexes",
 ]
 
-# ─────────────────────────────────────────────────────────────────────────────
-# MOTS VIDES (stop words) personnalisés
-# ─────────────────────────────────────────────────────────────────────────────
+# 
+# MOTS VIDES
+# 
 # Justification :
 #   Les mots vides sont des mots grammaticaux très fréquents qui n'apportent
 #   pas de sens lexical à l'analyse (articles, prépositions, conjonctions,

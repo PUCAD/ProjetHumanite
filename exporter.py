@@ -1,7 +1,6 @@
 """
-=============================================================================
-exporter.py – Écriture des résultats dans un fichier CSV
-=============================================================================
+exporter.py . Écriture des résultats dans un fichier CSV
+
 """
 
 import csv

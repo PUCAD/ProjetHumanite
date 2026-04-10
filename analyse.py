@@ -1,7 +1,7 @@
 """
-=============================================================================
-analyse.py – Fonctions d'analyse linguistique
-=============================================================================
+
+analyse.py .Fonctions d'analyse linguistique
+
 """
 
 import re
@@ -14,9 +14,9 @@ from config import NLP_MODEL, CUSTOM_STOP_WORDS
 from loader import clean_text
 
 
-# =============================================================================
+
 # CHARGEMENT DES OUTILS
-# =============================================================================
+
 
 def load_tools():
     """Charge le modèle spaCy français et le correcteur orthographique."""
@@ -38,9 +38,9 @@ def load_tools():
     return nlp, spell
 
 
-# =============================================================================
+
 # FONCTIONS UTILITAIRES
-# =============================================================================
+
 
 def is_stop(token) -> bool:
     """Retourne True si le token est un mot vide ou de la ponctuation."""
@@ -51,9 +51,9 @@ def is_stop(token) -> bool:
     )
 
 
-# =============================================================================
+
 # MÉTRIQUES
-# =============================================================================
+
 
 def count_lemmes(doc) -> int:
     """Nombre de lemmes différents (hors mots vides)."""
@@ -131,9 +131,9 @@ def classify_sentences(doc) -> tuple:
     return simples, complexes
 
 
-# =============================================================================
+
 # ANALYSE COMPLÈTE D'UNE QUESTION
-# =============================================================================
+
 
 def analyse_question(text: str, nlp, spell) -> dict:
     """
